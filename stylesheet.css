@@ -1,0 +1,134 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+    background-color: whitesmoke;
+}
+
+h1
+{
+    margin: 30px;
+}
+
+h2
+{
+    margin:0px 30px 30px 30px;
+    font-size: 700;
+    font-weight: 200;
+}
+
+.calculator
+{
+    position: fixed;
+    color: green;
+    font-size: min(5vw,50px);
+    top: 50%;
+    right: 25PX;
+    padding: 0.5vw;
+    cursor: pointer;
+}
+
+.binarylist
+{
+    display: flex;
+    justify-content: center;
+}
+
+table
+{
+    margin-top: 0px 50px 50px 50px;
+    width: 70%;
+    border: solid 2px rgba(39, 117, 98, 0.829);
+}
+
+th
+{
+    background-color: rgb(5, 65, 32);
+    color: white;
+    padding: 15px;
+    font-size: larger;
+    font-weight:400;
+}
+
+td
+{
+    padding-right: 50px;
+    padding: 10px;
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:400;
+}
+
+tr:nth-child(even) {
+    background-color: Lightgreen;
+}
+
+.btn 
+{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.button
+{
+    padding: 10px;
+    border-radius: 20px;
+    border: solid 3px green;
+    color: rgba(0, 0, 0, 0.856);
+    background-color:rgb(222, 247, 176);
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.upto
+{
+    margin-top: 10px;
+}
+
+.entity
+{
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: solid 3px green;
+    color: rgba(0, 0, 0, 0.856);
+    background-color:rgb(222, 247, 176);
+    cursor: pointer;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.footer
+{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+a
+{
+    text-decoration: underline;
+}
+
+
+.love
+{
+    text-decoration: none !important;
+    color: red;
+    animation: beat .25s infinite alternate;
+    transform-origin: center;
+}
+
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+
